@@ -1,0 +1,131 @@
+html, body, #root {
+  min-height: 100vh;
+  height: auto;
+  width: 100vw;
+  background-color: hsl(30, 54%, 90%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: hsl(24, 5%, 18%);
+}
+
+.recipeImage {
+  border-radius: 15px;
+  max-width: 100%;
+  height: auto;
+}
+
+h1{
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-size: 40px;
+  margin-block-start: .4em;
+  margin-block-end: .4em;
+}
+
+h2 {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-size: 30px;
+  color: hsl(14, 45%, 36%);
+}
+
+h3{
+  color: hsl(332, 51%, 32%);
+  font-family: "Outfit", serif;
+}
+
+p, li {
+  font-family: "Outfit", serif;
+  color: hsl(30, 10%, 34%);
+  font-size: 16px;
+  margin-block: 1em;
+}
+
+li {
+  padding-left: 2%;
+}
+
+ul li::marker, ol li::marker {
+  color: hsl(14, 45%, 36%);
+  font-weight: bold;
+}
+
+.prepList li::marker {
+  color: hsl(332, 51%, 32%);
+}
+
+.recipeCard {
+  height: auto;
+  width: auto;
+  min-width: 340px;
+  max-width: 650px;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 25px;
+  padding: 3%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.prepCard {
+  background-color: hsl(330, 100%, 98%);
+  border-radius: 15px;
+  padding: 1% 3% 1% 3%;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.bodyCopy{
+  margin-block-end: 2em;
+}
+
+hr {
+  border: 1px solid hsl(30, 18%, 87%);
+}
+
+.sections {
+  margin-block: 2em;
+}
+
+table {
+  width: 100%;
+  margin-block-start: 1em;
+  border-collapse: collapse;
+}
+
+td {
+  padding-left: 5%;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+tr {
+  border: 1px solid hsl(30, 18%, 87%);
+  border-width: 1px 0;
+}
+
+tr:first-child {
+  border-top: none;
+}
+
+tr:last-child {
+  border-bottom: none;
+}
+
+.item2 {
+  padding-left: 0;
+  color: hsl(14, 45%, 36%);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Young Serif';
+  src: url('./assets/fonts/young-serif/YoungSerif-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Outfit';
+  src: url('./assets/fonts/outfit/Outfit-VariableFont_wght.ttf');
+}
