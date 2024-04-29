@@ -115,7 +115,9 @@ td {
 }
 
 tr {
-  border: 1px solid hsl(30, 18%, 87%);
+  border-style: solid;
+  border-color:  hsl(30, 18%, 87%);
+  border-width: 1px 0 1px 0;
 }
 
 tr:first-child {
