@@ -67,6 +67,19 @@ ul li::marker, ol li::marker {
   margin-bottom: 5%;
 }
 
+@media (width <= 340px) {
+html, body, #root {
+  background-color: hsl(0, 0%, 100%);
+}
+
+.recipeCard {
+  margin-top: 0;
+  margin-bottom: 0;
+  border-radius: 0;
+
+}
+}
+
 .prepCard {
   background-color: hsl(330, 100%, 98%);
   border-radius: 15px;
@@ -103,7 +116,6 @@ td {
 
 tr {
   border: 1px solid hsl(30, 18%, 87%);
-  border-width: 1px 0;
 }
 
 tr:first-child {
