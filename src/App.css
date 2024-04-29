@@ -67,7 +67,7 @@ ul li::marker, ol li::marker {
   margin-bottom: 5%;
 }
 
-@media (width <= 340px) {
+@media (width <= 430px) {
 html, body, #root {
   background-color: hsl(0, 0%, 100%);
 }
