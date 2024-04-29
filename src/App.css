@@ -7,6 +7,7 @@ html, body, #root {
   justify-content: center;
   align-items: center;
   color: hsl(24, 5%, 18%);
+  flex-direction: column;
 }
 
 .recipeImage {
@@ -132,6 +133,11 @@ tr:last-child {
   padding-left: 0;
   color: hsl(14, 45%, 36%);
   font-weight: bold;
+}
+
+.author {
+  font-family: Outfit, serif;
+  color: gray;
 }
 
 @font-face {
